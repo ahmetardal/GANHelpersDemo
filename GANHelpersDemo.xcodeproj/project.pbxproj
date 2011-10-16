@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		598A825D144B11CC0030B565 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A825C144B11CC0030B565 /* UIKit.framework */; };
+		598A825F144B11CC0030B565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A825E144B11CC0030B565 /* Foundation.framework */; };
+		598A8261144B11CC0030B565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A8260144B11CC0030B565 /* CoreGraphics.framework */; };
+		598A8267144B11CC0030B565 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 598A8265144B11CC0030B565 /* InfoPlist.strings */; };
+		598A826A144B11CC0030B565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 598A8269144B11CC0030B565 /* main.m */; };
+		598A826D144B11CC0030B565 /* GANHelpersDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 598A826C144B11CC0030B565 /* GANHelpersDemoAppDelegate.m */; };
+		598A8270144B11CC0030B565 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598A826E144B11CC0030B565 /* MainWindow.xib */; };
+		598A8273144B11CC0030B565 /* GANHelpersDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598A8272144B11CC0030B565 /* GANHelpersDemoViewController.m */; };
+		598A8276144B11CC0030B565 /* GANHelpersDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598A8274144B11CC0030B565 /* GANHelpersDemoViewController.xib */; };
+		598A8280144B127F0030B565 /* GANHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 598A827E144B127F0030B565 /* GANHelpers.m */; };
+		598A8283144B12A70030B565 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A8281144B12A70030B565 /* CFNetwork.framework */; };
+		598A8290144B16160030B565 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A828F144B16160030B565 /* libsqlite3.0.dylib */; };
+		598A8292144B20B50030B565 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A8291144B20B50030B565 /* libGoogleAnalytics.a */; };
+		598A8296144B2F750030B565 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 598A8294144B2F750030B565 /* OtherViewController.m */; };
+		598A8297144B2F750030B565 /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 598A8295144B2F750030B565 /* OtherViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		598A8258144B11CC0030B565 /* GANHelpersDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GANHelpersDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		598A825C144B11CC0030B565 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		598A825E144B11CC0030B565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		598A8260144B11CC0030B565 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		598A8264144B11CC0030B565 /* GANHelpersDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GANHelpersDemo-Info.plist"; sourceTree = "<group>"; };
+		598A8266144B11CC0030B565 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		598A8268144B11CC0030B565 /* GANHelpersDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GANHelpersDemo-Prefix.pch"; sourceTree = "<group>"; };
+		598A8269144B11CC0030B565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		598A826B144B11CC0030B565 /* GANHelpersDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANHelpersDemoAppDelegate.h; sourceTree = "<group>"; };
+		598A826C144B11CC0030B565 /* GANHelpersDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GANHelpersDemoAppDelegate.m; sourceTree = "<group>"; };
+		598A826F144B11CC0030B565 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		598A8271144B11CC0030B565 /* GANHelpersDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GANHelpersDemoViewController.h; sourceTree = "<group>"; };
+		598A8272144B11CC0030B565 /* GANHelpersDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GANHelpersDemoViewController.m; sourceTree = "<group>"; };
+		598A8275144B11CC0030B565 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GANHelpersDemoViewController.xib; sourceTree = "<group>"; };
+		598A827D144B127F0030B565 /* GANHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANHelpers.h; sourceTree = "<group>"; };
+		598A827E144B127F0030B565 /* GANHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GANHelpers.m; sourceTree = "<group>"; };
+		598A827F144B127F0030B565 /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		598A8281144B12A70030B565 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		598A828F144B16160030B565 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		598A8291144B20B50030B565 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = GANHelpersDemo/Libs/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		598A8293144B2F750030B565 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		598A8294144B2F750030B565 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		598A8295144B2F750030B565 /* OtherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		598A8255144B11CC0030B565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A8292144B20B50030B565 /* libGoogleAnalytics.a in Frameworks */,
+				598A8290144B16160030B565 /* libsqlite3.0.dylib in Frameworks */,
+				598A8283144B12A70030B565 /* CFNetwork.framework in Frameworks */,
+				598A825D144B11CC0030B565 /* UIKit.framework in Frameworks */,
+				598A825F144B11CC0030B565 /* Foundation.framework in Frameworks */,
+				598A8261144B11CC0030B565 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		598A824D144B11CC0030B565 = {
+			isa = PBXGroup;
+			children = (
+				598A8262144B11CC0030B565 /* GANHelpersDemo */,
+				598A825B144B11CC0030B565 /* Frameworks */,
+				598A8259144B11CC0030B565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		598A8259144B11CC0030B565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				598A8258144B11CC0030B565 /* GANHelpersDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		598A825B144B11CC0030B565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				598A8291144B20B50030B565 /* libGoogleAnalytics.a */,
+				598A828F144B16160030B565 /* libsqlite3.0.dylib */,
+				598A8281144B12A70030B565 /* CFNetwork.framework */,
+				598A825C144B11CC0030B565 /* UIKit.framework */,
+				598A825E144B11CC0030B565 /* Foundation.framework */,
+				598A8260144B11CC0030B565 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		598A8262144B11CC0030B565 /* GANHelpersDemo */ = {
+			isa = PBXGroup;
+			children = (
+				598A827C144B127F0030B565 /* GANHelpers */,
+				598A826B144B11CC0030B565 /* GANHelpersDemoAppDelegate.h */,
+				598A826C144B11CC0030B565 /* GANHelpersDemoAppDelegate.m */,
+				598A826E144B11CC0030B565 /* MainWindow.xib */,
+				598A8271144B11CC0030B565 /* GANHelpersDemoViewController.h */,
+				598A8272144B11CC0030B565 /* GANHelpersDemoViewController.m */,
+				598A8274144B11CC0030B565 /* GANHelpersDemoViewController.xib */,
+				598A8293144B2F750030B565 /* OtherViewController.h */,
+				598A8294144B2F750030B565 /* OtherViewController.m */,
+				598A8295144B2F750030B565 /* OtherViewController.xib */,
+				598A8263144B11CC0030B565 /* Supporting Files */,
+			);
+			path = GANHelpersDemo;
+			sourceTree = "<group>";
+		};
+		598A8263144B11CC0030B565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				598A8264144B11CC0030B565 /* GANHelpersDemo-Info.plist */,
+				598A8265144B11CC0030B565 /* InfoPlist.strings */,
+				598A8268144B11CC0030B565 /* GANHelpersDemo-Prefix.pch */,
+				598A8269144B11CC0030B565 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		598A827C144B127F0030B565 /* GANHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				598A827D144B127F0030B565 /* GANHelpers.h */,
+				598A827E144B127F0030B565 /* GANHelpers.m */,
+				598A827F144B127F0030B565 /* GANTracker.h */,
+			);
+			path = GANHelpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		598A8257144B11CC0030B565 /* GANHelpersDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598A8279144B11CC0030B565 /* Build configuration list for PBXNativeTarget "GANHelpersDemo" */;
+			buildPhases = (
+				598A8254144B11CC0030B565 /* Sources */,
+				598A8255144B11CC0030B565 /* Frameworks */,
+				598A8256144B11CC0030B565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GANHelpersDemo;
+			productName = GANHelpersDemo;
+			productReference = 598A8258144B11CC0030B565 /* GANHelpersDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		598A824F144B11CC0030B565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "SpinningSphere Labs";
+			};
+			buildConfigurationList = 598A8252144B11CC0030B565 /* Build configuration list for PBXProject "GANHelpersDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 598A824D144B11CC0030B565;
+			productRefGroup = 598A8259144B11CC0030B565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				598A8257144B11CC0030B565 /* GANHelpersDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		598A8256144B11CC0030B565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A8267144B11CC0030B565 /* InfoPlist.strings in Resources */,
+				598A8270144B11CC0030B565 /* MainWindow.xib in Resources */,
+				598A8276144B11CC0030B565 /* GANHelpersDemoViewController.xib in Resources */,
+				598A8297144B2F750030B565 /* OtherViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		598A8254144B11CC0030B565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				598A826A144B11CC0030B565 /* main.m in Sources */,
+				598A826D144B11CC0030B565 /* GANHelpersDemoAppDelegate.m in Sources */,
+				598A8273144B11CC0030B565 /* GANHelpersDemoViewController.m in Sources */,
+				598A8280144B127F0030B565 /* GANHelpers.m in Sources */,
+				598A8296144B2F750030B565 /* OtherViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		598A8265144B11CC0030B565 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598A8266144B11CC0030B565 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		598A826E144B11CC0030B565 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598A826F144B11CC0030B565 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		598A8274144B11CC0030B565 /* GANHelpersDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				598A8275144B11CC0030B565 /* en */,
+			);
+			name = GANHelpersDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		598A8277144B11CC0030B565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		598A8278144B11CC0030B565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		598A827A144B11CC0030B565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GANHelpersDemo/GANHelpersDemo-Prefix.pch";
+				INFOPLIST_FILE = "GANHelpersDemo/GANHelpersDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GANHelpersDemo/Libs\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		598A827B144B11CC0030B565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GANHelpersDemo/GANHelpersDemo-Prefix.pch";
+				INFOPLIST_FILE = "GANHelpersDemo/GANHelpersDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GANHelpersDemo/Libs\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		598A8252144B11CC0030B565 /* Build configuration list for PBXProject "GANHelpersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A8277144B11CC0030B565 /* Debug */,
+				598A8278144B11CC0030B565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598A8279144B11CC0030B565 /* Build configuration list for PBXNativeTarget "GANHelpersDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598A827A144B11CC0030B565 /* Debug */,
+				598A827B144B11CC0030B565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 598A824F144B11CC0030B565 /* Project object */;
+}
